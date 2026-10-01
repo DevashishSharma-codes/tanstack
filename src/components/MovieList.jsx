@@ -17,7 +17,6 @@ const MovieList = () => {
     setVisibleCount(10)
   }, [search])
 
-
   useEffect(() => {
     const handleScroll = () => {
       const bottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 100
