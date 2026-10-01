@@ -74,5 +74,4 @@ const MovieList = () => {
     </main>
   )
 }
-
 export default MovieList
